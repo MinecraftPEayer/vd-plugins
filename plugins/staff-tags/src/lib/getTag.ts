@@ -11,7 +11,7 @@ const GuildMemberStore = findByStoreName("GuildMemberStore")
 
 export const BUILT_IN_TAGS = [
     i18n.Messages.AI_TAG,
-    //Messages.BOT_TAG_BOT, This is done in our own tags as webhooks use this
+    Messages.BOT_TAG_BOT,
     i18n.Messages.BOT_TAG_SERVER,
     i18n.Messages.SYSTEM_DM_TAG_SYSTEM,
     i18n.Messages.GUILD_AUTOMOD_USER_BADGE_TEXT,
